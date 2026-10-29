@@ -1,0 +1,126 @@
+
+.restaurante {
+  font-family: Arial, sans-serif;
+  color: #4a2c2a;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  background-color: #fff8f0;
+}
+
+.encabezado {
+  background-color: #713e48;
+  color: white;
+  text-align: center;
+  padding: 25px 15px;
+}
+
+.encabezado h1 {
+  font-size: 38px;
+  margin: 0 0 10px;
+}
+
+.encabezado nav {
+  margin-top: 20px;
+}
+
+.encabezado nav a {
+  color: white;
+  text-decoration: none;
+  margin: 0 15px;
+  font-weight: bold;
+}
+
+.principal {
+  text-align: center;
+  padding: 75px 20px;
+  background: linear-gradient(135deg, #f8d7da, #ffe8cc);
+}
+
+.principal h2 {
+  font-size: 34px;
+}
+
+.principal p {
+  font-size: 18px;
+  margin-bottom: 30px;
+}
+
+.boton {
+  display: inline-block;
+  background-color: #713e48;
+  color: white;
+  padding: 13px 24px;
+  border-radius: 25px;
+  text-decoration: none;
+}
+
+.menu {
+  text-align: center;
+  padding: 45px 20px;
+}
+
+.menu h2 {
+  font-size: 30px;
+  color: #713e48;
+}
+
+.productos {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 25px;
+  margin-top: 30px;
+}
+
+.producto {
+  background-color: white;
+  width: 240px;
+  padding: 25px;
+  border-radius: 15px;
+  box-shadow: 0 4px 12px #00000015;
+  transition: transform 0.3s;
+}
+
+.producto:hover {
+  transform: translateY(-5px);
+}
+
+.emoji {
+  font-size: 55px;
+}
+
+.producto h3 {
+  color: #713e48;
+}
+
+.producto strong {
+  color: #a34f61;
+  font-size: 20px;
+}
+
+footer {
+  background-color: #713e48;
+  color: white;
+  text-align: center;
+  padding: 30px 15px;
+}
+
+@media (max-width: 600px) {
+  .encabezado h1 {
+    font-size: 30px;
+  }
+
+  .principal h2 {
+    font-size: 27px;
+  }
+
+  .encabezado nav a {
+    margin: 0 7px;
+  }
+}
