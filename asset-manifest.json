@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/dulce-encanto/static/css/main.cb890209.css",
+    "main.js": "/dulce-encanto/static/js/main.2b782874.js",
+    "static/js/453.976a88d9.chunk.js": "/dulce-encanto/static/js/453.976a88d9.chunk.js",
+    "index.html": "/dulce-encanto/index.html",
+    "main.cb890209.css.map": "/dulce-encanto/static/css/main.cb890209.css.map",
+    "main.2b782874.js.map": "/dulce-encanto/static/js/main.2b782874.js.map",
+    "453.976a88d9.chunk.js.map": "/dulce-encanto/static/js/453.976a88d9.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.cb890209.css",
+    "static/js/main.2b782874.js"
+  ]
+}
